@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function CustomNavbar() {
   return (
     <>
-      <Navbar className="Navbar" bg="light" data-bs-theme="light">
+      <Navbar className="Navbar">
         <Container className="nav-container">
           <Navbar.Brand className="navbar-title" as={Link} to="/">SKH</Navbar.Brand>
           <Nav className="nav-link justify-content-end">

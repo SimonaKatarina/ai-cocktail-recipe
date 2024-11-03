@@ -1,0 +1,36 @@
+.hero {
+    background-image: url('./images/cocktails.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.hero h1{
+font-family: "Pinyon Script", serif;
+font-size: 220px;
+text-align: center;
+line-height: 1.5;
+margin: 0 auto;
+padding-top: 180px;
+text-shadow: 3px 3px 4px #5C0702;
+color: #F5F3E6;
+}
+
+.hero p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+    
+}
+
+@media (max-width: 960px){
+.hero {
+    height: 300px;
+}
+.hero h1{
+    font-size: 100px;
+    padding-top: 140px;
+}
+}
