@@ -1,8 +1,8 @@
 .hero {
-    background-image: url('../images/cocktails.png');
+    background-image: url('../images/cocktail.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 80vh;
 }
 
 .hero h1{
@@ -10,8 +10,8 @@ font-family: "Pinyon Script", serif;
 font-size: 220px;
 text-align: center;
 line-height: 1.5;
-margin: auto;
-padding: 85px;
+margin: 0px;
+padding: 85px 0px;
 text-shadow: 3px 3px 4px #5C0702;
 color: #F5F3E6;
 
@@ -25,9 +25,9 @@ color: #F5F3E6;
     border-bottom: 1px solid black;    
 }
 
-@media (max-width: 960px){
+@media (max-width: 800px){
 .hero {
-    height: 300px;
+    height: 40vh;
 }
 .hero h1{
     font-size: 100px;

@@ -10,7 +10,7 @@ function CustomNavbar() {
     <>
       <Navbar className="Navbar">
         <Container className="nav-container">
-          <Navbar.Brand className="navbar-title" as={Link} to="/">SKH</Navbar.Brand>
+          <Navbar.Brand className="navbar-title justify-content-start" as={Link} to="/">SKH</Navbar.Brand>
           <Nav className="nav-link justify-content-end">
            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/recipes">Recipes</Nav.Link>
