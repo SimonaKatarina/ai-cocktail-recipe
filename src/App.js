@@ -1,12 +1,12 @@
 import CustomNavbar from './components/CustomNavbar';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from "./Home";
-import Recipes from "./Recipes";
-import Generator from "./Generator";
+import Home from './Home';
+import Recipes from './Recipes';
+import Generator from './Generator';
 import './App.css';
 
-function App(){
+export default function App(){
   return (
     <Router>
       <CustomNavbar />
@@ -18,5 +18,3 @@ function App(){
     </Router>
   );
 }
-
-export default App;

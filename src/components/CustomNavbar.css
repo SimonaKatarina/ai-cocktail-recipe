@@ -1,0 +1,15 @@
+.Navbar {
+    font-family: "DM Serif Display", serif;
+    padding: 0px;  
+}
+.nav-container{
+background-color: #F5F3E6; 
+}
+.navbar-title{
+    font-size: 25px;
+    color: #FC703B;
+}
+
+.nav-link{
+    color: rgb(252, 112, 59, 0.8);
+}
